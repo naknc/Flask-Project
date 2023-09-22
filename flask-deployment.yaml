@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-project-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: flask-project
+  template:
+    metadata:
+      labels:
+        app: flask-project
+    spec:
+      containers:
+      - name: flask-project
+        image: naknc/flask-project:v3
+        ports:
+        - containerPort: 80
