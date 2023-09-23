@@ -38,7 +38,7 @@ kubectl apply -f service.yaml
 Find the external IP for the service:
 
 ```
-kubectl get svc hello-world-service
+kubectl get svc flask-service
 ```
 Open a web browser and go to http://<external-ip>/ to see the "Great Success" message.
 
