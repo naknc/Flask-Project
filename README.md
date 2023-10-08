@@ -60,8 +60,4 @@ This project is under the MIT License. See LICENSE for details.
 Flask: Flask Web Framework
 Kubernetes: Kubernetes Documentation
 
-```
-Now, the placeholders in the README.md file have been replaced with sample values. Please remember to replace these sample values with your actual GitHub username, Docker Hub username, and any other specific details related to your project.
-```
-
 
