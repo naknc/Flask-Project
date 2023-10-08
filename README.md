@@ -16,10 +16,9 @@ Before you begin, ensure you have the following prerequisites installed:
 ### Step 1: Clone the Repository
 
 ```
-  git clone https://github.com/your-github-username/kubernetes-flask-project.git
+  git clone https://github.com/naknc/kubernetes-flask-project.git
   cd kubernetes-flask-project
 ```
-Replace your-github-username with your GitHub username.
 
 ### Step 2: Build and Push the Docker Image
 
