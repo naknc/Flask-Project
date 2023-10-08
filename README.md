@@ -26,7 +26,7 @@ Before you begin, ensure you have the following prerequisites installed:
 docker build -t your-docker-username/flask-project:latest .
 docker push your-docker-username/flask-project:latest
 ```
-Replace your-docker-username with your Docker Hub username.
+Replace your-docker-username with your Docker Hub username. Deployment files pull the image from my DockerHub. To change it edit the deployment files accordingly
 
 ### Step 3: Deploy to Kubernetes
 ```
